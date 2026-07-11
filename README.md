@@ -60,6 +60,7 @@ Start UI work by creating a design contract, inspect the relevant references, ad
 
 ## Links
 
+- [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)
 - [Connect UIZZE](https://uizze.com/?view=agent)
 - [Setup documentation](https://uizze.com/docs)
 - [Fix AI UI slop](https://uizze.com/ai-ui-slop)

@@ -58,6 +58,16 @@ The UIZZE MCP server returns structured UI references, image URLs, OCR excerpts,
 
 Start UI work by creating a design contract, inspect the relevant references, adapt the observed patterns to the existing design system, then validate and critique the implementation before calling it done. Do not clone brands, logos, proprietary copy, assets, or exact layouts.
 
+## Install the agent skill
+
+Install the reusable UIZZE UI-research workflow for compatible coding agents:
+
+```bash
+npx skills add aislon/uizze-mcp --skill uizze-ui-research
+```
+
+The skill guides agents to use UIZZE references, design contracts, and validation workflows without copying another product's branded interface. It requires a configured UIZZE MCP connection for hosted workflows.
+
 ## Links
 
 - [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)

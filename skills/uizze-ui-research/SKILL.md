@@ -1,6 +1,8 @@
 ---
 name: uizze-ui-research
 description: Use when building, reviewing, or improving a web or iOS product UI and you need real UI references, explicit design constraints, or implementation validation through UIZZE.
+version: 1.0.0
+tags: [ui-design, ui-research, mcp, agent-workflows]
 ---
 
 # UIZZE UI Research

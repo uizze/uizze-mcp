@@ -8,6 +8,8 @@ UIZZE is an anti-slop UI context layer for coding agents. It helps agents inspec
 
 → [Run the free AI UI slop preflight checklist](AI_UI_SLOP_CHECKLIST.md)
 
+→ [Copy an anti-slop UI research, contract, validation, and critique prompt](AI_UI_SLOP_PROMPT_PACK.md)
+
 Use UIZZE to:
 
 - Browse a public catalog of real web and iOS product UI references.

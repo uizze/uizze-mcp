@@ -39,6 +39,8 @@ With full access and a configured UIZZE agent token, the hosted MCP workflow pro
 
 The public catalog is free to browse. For hosted MCP workflows, connect UIZZE at `https://uizze.com/mcp` with a valid UIZZE agent token. See the [setup documentation](https://uizze.com/docs) for supported clients and configuration.
 
+For a tool-agnostic review before shipping, run the [AI UI Slop Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).
+
 You can also install the reusable research workflow:
 
 ```bash

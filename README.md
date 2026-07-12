@@ -68,7 +68,17 @@ The UIZZE MCP server returns structured UI references, image URLs, OCR excerpts,
 
 Start UI work by creating a design contract, inspect the relevant references, adapt the observed patterns to the existing design system, then validate and critique the implementation before calling it done. Do not clone brands, logos, proprietary copy, assets, or exact layouts.
 
-## Install the agent skill
+## Install the free anti-slop review skill
+
+Install the standalone checklist workflow for compatible coding agents:
+
+```bash
+npx skills add aislon/uizze-mcp --skill ai-ui-slop-review
+```
+
+The review skill works without a UIZZE connection or token. It reviews already implemented, rendered web and iOS interfaces for evidence-backed blocking issues, missing states, generic product decisions, observable responsive or accessibility gaps, and design-system coherence. It does not build or edit the interface.
+
+## Install the UIZZE research skill
 
 Install the reusable UIZZE UI-research workflow for compatible coding agents:
 

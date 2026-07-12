@@ -70,4 +70,12 @@ Review this implemented interface for AI UI slop.
 Start by restating the screen's user, primary job, primary action, and product constraints. Then inspect the rendered UI and implementation against the AI UI Slop Preflight Checklist. Separate blocking issues from optional refinements. For every issue, cite the visible or implementation evidence, explain why it conflicts with the product intent or design system, and propose the smallest specific correction. Do not recommend copying another product's brand, assets, copy, or exact layout. Do not pass the interface while a relevant checklist item remains unresolved.
 ```
 
+## Install as an agent skill
+
+```bash
+npx skills add aislon/uizze-mcp --skill ai-ui-slop-review
+```
+
+The standalone post-implementation review skill works without a UIZZE connection or token.
+
 For a reference-first workflow, read [Stop AI UI Slop Before It Ships](ANTI_SLOP_UI_WORKFLOW.md). With full access and a configured agent token, the [UIZZE Agent Connector](https://uizze.com/?view=agent) provides design contracts, implementation validation, audits, and critiques.

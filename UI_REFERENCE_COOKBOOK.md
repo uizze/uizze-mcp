@@ -67,6 +67,6 @@ For the complete configuration examples, see the [README](README.md). For copy-r
 
 ## Explore UIZZE
 
-- [Browse the free UI reference catalog](https://uizze.com/mobbin-alternative)
-- [Learn about the anti-slop UI workflow](https://uizze.com/ai-ui-slop)
-- [Connect the Agent Connector](https://uizze.com/?view=agent)
+- [Browse the free UI reference catalog](https://uizze.com/mobbin-alternative?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
+- [Learn about the anti-slop UI workflow](https://uizze.com/ai-ui-slop?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
+- [Connect the Agent Connector](https://uizze.com/?view=agent&utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)

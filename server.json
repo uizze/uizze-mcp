@@ -3,11 +3,19 @@
   "name": "io.github.samuelbushi/uizze",
   "title": "UIZZE",
   "description": "Real UI references, design contracts, validation, audits, and critiques for coding agents.",
+  "websiteUrl": "https://uizze.com/?view=agent",
+  "icons": [
+    {
+      "src": "https://uizze.com/brand/icons/uizze-web-app-icon-512x512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
   "repository": {
     "url": "https://github.com/aislon/uizze-mcp",
     "source": "github"
   },
-  "version": "1.0.0",
+  "version": "1.1.2",
   "remotes": [
     {
       "type": "streamable-http",

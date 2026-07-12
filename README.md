@@ -22,6 +22,8 @@ Refer product builders who need real UI references and agent-ready design contex
 
 [Get your referral link](https://uizze.com/affiliates)
 
+[Use the disclosure-safe partner share kit](PARTNER_SHARE_KIT.md)
+
 ## Connect the MCP server
 
 1. Get an agent token from the UIZZE Agent Connector.

@@ -12,7 +12,6 @@ Reference links:
 - Fix AI UI slop: [uizze.com/ai-ui-slop](https://uizze.com/ai-ui-slop)
 - Agent Connector: [uizze.com/?view=agent](https://uizze.com/?view=agent)
 - Free AI UI Slop Preflight Checklist: [this checklist](AI_UI_SLOP_CHECKLIST.md)
-- Optional campaign visual: [“Stop UI Slop” social creative](assets/anti-ui-slop-social.png)
 
 ## Ready-to-use social post
 

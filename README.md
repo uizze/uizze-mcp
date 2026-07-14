@@ -97,7 +97,7 @@ The skill guides agents to use UIZZE references, design contracts, and validatio
 ## Links
 
 - [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)
-- [Connect UIZZE](https://uizze.com/?view=agent)
+- [Connect UIZZE](https://uizze.com)
 - [Setup documentation](https://uizze.com/docs)
 - [Fix AI UI slop](https://uizze.com/ai-ui-slop)
 - [Free Mobbin alternative for UI research](https://uizze.com/mobbin-alternative)

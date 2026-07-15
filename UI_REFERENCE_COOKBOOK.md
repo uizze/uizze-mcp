@@ -2,7 +2,7 @@
 
 AI can produce a functional interface quickly. The hard part is giving it enough product context to avoid a generic first draft. UIZZE gives supported coding agents a way to research real web and iOS interface references before implementation, then work from a design contract and validate the result.
 
-The public UIZZE catalog is free to browse. A UIZZE agent token and full access are required for Agent Connector and hosted MCP workflows.
+UIZZE has no free plan. Paid access and a UIZZE agent token are required for the catalog, Agent Connector, and hosted MCP workflows.
 
 ## Use it before the first UI commit
 
@@ -63,10 +63,10 @@ URL: https://uizze.com/mcp
 Authorization: Bearer <your UIZZE agent token>
 ```
 
-For the complete configuration examples, see the [README](README.md). For copy-ready research, contract, validation, and critique prompts, see the [AI UI slop prompt pack](AI_UI_SLOP_PROMPT_PACK.md). The standalone [AI UI slop review skill](skills/ai-ui-slop-review/SKILL.md) is free to install and use without a UIZZE connection.
+For the complete configuration examples, see the [README](README.md). For copy-ready research, contract, validation, and critique prompts, see the [AI UI slop prompt pack](AI_UI_SLOP_PROMPT_PACK.md). The standalone [AI UI slop review skill](skills/ai-ui-slop-review/SKILL.md) can be installed and used without a UIZZE connection.
 
 ## Explore UIZZE
 
-- [Browse the free UI reference catalog](https://uizze.com/mobbin-alternative?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
+- [Browse the UI reference catalog](https://uizze.com/mobbin-alternative?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
 - [Learn about the anti-slop UI workflow](https://uizze.com/ai-ui-slop?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
 - [Connect the Agent Connector](https://uizze.com/?view=agent&utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)

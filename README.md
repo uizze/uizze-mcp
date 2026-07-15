@@ -4,9 +4,23 @@
 
 Codex can write the UI; UIZZE helps it stop shipping generic AI UI slop. UIZZE gives Codex real web and iOS interface references before implementation, then provides design contracts, validation, audits, and critiques. Claude Code and Cursor use the same hosted MCP workflow.
 
+## Stop AI UI slop with Agent Skills
+
+Build product UI with UIZZE evidence and finish gates:
+
+```bash
+npx skills add aislon/uizze-mcp --skill uizze-ui-research
+```
+
+Catch AI UI slop in rendered UI before it ships:
+
+```bash
+npx skills add aislon/uizze-mcp --skill ai-ui-slop-review
+```
+
 → [Read the anti-slop UI workflow](ANTI_SLOP_UI_WORKFLOW.md)
 
-→ [Run the free AI UI slop preflight checklist](AI_UI_SLOP_CHECKLIST.md)
+→ [Run the AI UI slop preflight checklist](AI_UI_SLOP_CHECKLIST.md)
 
 → [Copy an anti-slop UI research, contract, validation, and critique prompt](AI_UI_SLOP_PROMPT_PACK.md)
 
@@ -18,7 +32,7 @@ Use UIZZE to:
 - Search screens, flows, and UI elements for visual context before building.
 - Give supported coding agents a hosted MCP workflow with UI design contracts, implementation validation, audits, and critiques.
 
-The public catalog is free to browse. Full access is required for Agent Connector and hosted MCP workflows.
+UIZZE has no free plan. Paid access is required for the catalog, Agent Connector, and hosted MCP workflows.
 
 ## Partner with UIZZE
 
@@ -74,30 +88,10 @@ The UIZZE MCP server returns structured UI references, image URLs, OCR excerpts,
 
 Start UI work by creating a design contract, inspect the relevant references, adapt the observed patterns to the existing design system, then validate and critique the implementation before calling it done. Do not clone brands, logos, proprietary copy, assets, or exact layouts.
 
-## Install the free anti-slop review skill
-
-Install the standalone checklist workflow for compatible coding agents:
-
-```bash
-npx skills add aislon/uizze-mcp --skill ai-ui-slop-review
-```
-
-The review skill works without a UIZZE connection or token. It reviews already implemented, rendered web and iOS interfaces for evidence-backed blocking issues, missing states, generic product decisions, observable responsive or accessibility gaps, and design-system coherence. It does not build or edit the interface.
-
-## Install the UIZZE research skill
-
-Install the reusable UIZZE UI-research workflow for compatible coding agents:
-
-```bash
-npx skills add aislon/uizze-mcp --skill uizze-ui-research
-```
-
-The skill guides agents to use UIZZE references, design contracts, and validation workflows without copying another product's branded interface. It requires a configured UIZZE MCP connection for hosted workflows.
-
 ## Links
 
 - [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)
 - [Connect UIZZE](https://uizze.com)
 - [Setup documentation](https://uizze.com/docs)
 - [Fix AI UI slop](https://uizze.com/ai-ui-slop)
-- [Free Mobbin alternative for UI research](https://uizze.com/mobbin-alternative)
+- [UI research for coding agents](https://uizze.com/mobbin-alternative)

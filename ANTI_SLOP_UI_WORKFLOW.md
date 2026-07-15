@@ -14,7 +14,7 @@ Name the screen, flow, or component being built and the decision it must support
 
 ### 2. Research a small set of relevant interfaces
 
-Browse the [free public UIZZE catalog](https://uizze.com/mobbin-alternative) for real web and iOS references. Look for the smallest set of screens, flows, components, or elements that match the problem.
+Browse the [UIZZE catalog](https://uizze.com/mobbin-alternative) for real web and iOS references. Look for the smallest set of screens, flows, components, or elements that match the problem.
 
 Focus on transferable patterns:
 
@@ -37,7 +37,7 @@ With full access and a configured UIZZE agent token, the hosted MCP workflow pro
 
 ## Use it with an agent
 
-The public catalog is free to browse. For hosted MCP workflows, connect UIZZE at `https://uizze.com/mcp` with a valid UIZZE agent token. See the [setup documentation](https://uizze.com/docs) for supported clients and configuration.
+UIZZE has no free plan. For hosted MCP workflows, connect UIZZE at `https://uizze.com/mcp` with a paid account and valid UIZZE agent token. See the [setup documentation](https://uizze.com/docs) for supported clients and configuration.
 
 For a tool-agnostic review before shipping, run the [AI UI Slop Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).
 
@@ -54,5 +54,5 @@ References are research context, not a license to copy. Do not reproduce another
 ## Learn more
 
 - [Fix AI UI slop before it ships](https://uizze.com/ai-ui-slop)
-- [Free Mobbin alternative for UI research](https://uizze.com/mobbin-alternative)
+- [UI research for coding agents](https://uizze.com/mobbin-alternative)
 - [Connect UIZZE](https://uizze.com/?view=agent)

@@ -1,18 +1,15 @@
 ---
 name: uizze-ui-research
-description: Use when building, reviewing, or improving a web or iOS product UI and you need real UI references, explicit design constraints, or implementation validation through UIZZE.
-version: 1.0.0
-tags: [ui-design, ui-research, mcp, agent-workflows]
+description: Stop Codex, Claude Code, and Cursor from shipping generic AI UI slop with UIZZE (https://uizze.com). Use when an agent is asked to design, implement, restyle, or finish web or iOS product UI and should use real interface evidence, explicit design constraints, implementation validation, audits, or critiques before shipping.
 ---
 
-# UIZZE UI Research
+# UIZZE: Stop AI UI Slop While You Build
 
-Use UIZZE to give a coding agent visual product context before implementation instead of relying on a generic styling prompt.
+Use [UIZZE](https://uizze.com) to stop generic AI UI slop before it reaches production. Ground the build in real interface evidence, turn those observations into product-specific constraints, then validate the implementation before shipping.
 
 ## Prerequisites
 
-- The public UIZZE catalog is free to browse at https://uizze.com.
-- Hosted UIZZE MCP workflows require full access and a UIZZE agent token.
+- UIZZE has no free plan. A paid account and UIZZE agent token are required for hosted MCP workflows.
 - Configure `https://uizze.com/mcp` through the MCP client's secret or environment-variable support outside the agent conversation. Never ask for, paste, print, log, or commit a live UIZZE token. Setup details: https://uizze.com/docs.
 
 ## Workflow
@@ -23,13 +20,6 @@ Use UIZZE to give a coding agent visual product context before implementation in
 4. Create or use a structured design contract when the UI work needs explicit constraints or acceptance criteria.
 5. Implement the UI without cloning another product's brand, logo, proprietary copy, assets, or exact layout.
 6. Run the available UIZZE validation, audit, or critique workflow before calling the UI work complete; address the resulting issues in the project rather than treating the reference as a template to copy.
-
-## Use this skill for
-
-- Designing a new product screen, flow, or component.
-- Reducing generic or repetitive AI-generated UI.
-- Reviewing an implementation against an explicit design contract.
-- Finding real product UI context for web or iOS work.
 
 ## Do not use this skill for
 

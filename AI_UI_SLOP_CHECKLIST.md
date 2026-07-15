@@ -18,7 +18,7 @@ Use this checklist before approving an interface produced with an AI coding agen
 - [ ] References were adapted rather than copied.
 - [ ] No external brand, logo, proprietary copy, asset, or exact layout was reproduced.
 
-Browse the [free public UIZZE catalog](https://uizze.com/mobbin-alternative) when the agent needs real web or iOS reference context.
+Browse the [UIZZE catalog](https://uizze.com/mobbin-alternative) when the agent needs real web or iOS reference context. UIZZE has no free plan.
 
 ## 3. Hierarchy and structure
 

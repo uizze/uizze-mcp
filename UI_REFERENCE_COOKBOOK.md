@@ -63,7 +63,7 @@ URL: https://uizze.com/mcp
 Authorization: Bearer <your UIZZE agent token>
 ```
 
-For the complete configuration examples, see the [README](README.md). For copy-ready research, contract, validation, and critique prompts, see the [AI UI slop prompt pack](AI_UI_SLOP_PROMPT_PACK.md). The standalone [AI UI slop review skill](skills/ai-ui-slop-review/SKILL.md) can be installed and used without a UIZZE connection.
+For the complete configuration examples, see the [README](README.md). For copy-ready research, contract, validation, and critique prompts, see the [UI slop prompt pack](AI_UI_SLOP_PROMPT_PACK.md). The standalone [UI slop review skill](skills/ui-slop-review/SKILL.md) can be installed and used without a UIZZE connection.
 
 ## Explore UIZZE
 

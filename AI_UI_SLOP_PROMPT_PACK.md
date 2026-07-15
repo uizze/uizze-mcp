@@ -64,7 +64,7 @@ or exact layout.
 
 ## 4. Run the anti-slop preflight review
 
-Use this after implementation. It works with the `ai-ui-slop-review` skill or as a standalone review prompt.
+Use this after implementation. It works with the `ui-slop-review` skill or as a standalone review prompt.
 
 ```text
 Review the rendered evidence for [screen / flow] against its design contract.

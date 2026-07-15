@@ -73,7 +73,7 @@ Start by restating the screen's user, primary job, primary action, and product c
 ## Install as an agent skill
 
 ```bash
-npx skills add aislon/uizze-mcp --skill ai-ui-slop-review
+npx skills add aislon/uizze-mcp --skill ui-slop-review
 ```
 
 The standalone post-implementation review skill works without a UIZZE connection or token.

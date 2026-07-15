@@ -2,7 +2,7 @@
 
 **UI taste for agents.**
 
-UIZZE is an anti-slop UI context layer for coding agents. It helps agents inspect real UI references before implementation instead of beginning from a generic guess.
+Codex can write the UI; UIZZE helps it stop shipping generic AI UI slop. UIZZE gives Codex real web and iOS interface references before implementation, then provides design contracts, validation, audits, and critiques. Claude Code and Cursor use the same hosted MCP workflow.
 
 → [Read the anti-slop UI workflow](ANTI_SLOP_UI_WORKFLOW.md)
 

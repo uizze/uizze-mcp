@@ -1,11 +1,11 @@
 ---
 name: uizze-ui-research
-description: Codex can build the UI. UIZZE stops it from shipping the same generic AI dashboard again. Use 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate when designing, implementing, restyling, or reviewing product UI.
+description: Codex can build the UI. UIZZE stops it from shipping the same generic dashboard again. Use 800,000+ real web and iOS screens, a product-specific design contract, and a hard finish gate when designing, implementing, restyling, or reviewing product UI.
 ---
 
 # UIZZE: Stop UI Slop
 
-Codex can build the screen. UIZZE stops it from shipping the same generic AI dashboard again.
+Codex can build the screen. UIZZE stops it from shipping the same generic dashboard again.
 
 UIZZE is the anti-slop layer for Codex, Claude Code, and Cursor. Its public catalogue gives you 800,000+ real web and iOS screens to ground the work before the first component is written. Turn that evidence into a concrete design contract, build in the product's own visual language, then run a hard finish gate before shipping.
 

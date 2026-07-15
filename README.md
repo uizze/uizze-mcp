@@ -9,10 +9,10 @@ Codex can write the UI; UIZZE helps it stop shipping generic AI UI slop. UIZZE g
 Give Codex, Claude Code, or Cursor UIZZE's paid anti-slop workflow:
 
 ```bash
-npx skills add https://uizze.com --skill anti-ai-ui-slop
+npx skills add https://uizze.com --skill anti-ui-slop
 ```
 
-Existing `uizze-ui-research` and `ai-ui-slop-review` installs remain available for compatibility; new installs should use `anti-ai-ui-slop` from `uizze.com`.
+The canonical first-party skill is `anti-ui-slop` from `uizze.com`. The repository also includes the focused `uizze-ui-research` and `ui-slop-review` skills.
 
 → [Read the anti-slop UI workflow](ANTI_SLOP_UI_WORKFLOW.md)
 

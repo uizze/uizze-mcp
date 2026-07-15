@@ -1,5 +1,5 @@
 ---
-name: ai-ui-slop-review
+name: ui-slop-review
 description: Catch UI slop before an implemented web or iOS interface ships. Use when the user asks for a UI slop review, anti-slop preflight, pre-ship UI check, screenshot critique, or rendered UI readiness review. Find generic patterns, weak product specificity, unclear hierarchy, missing interaction states, observable responsive or accessibility gaps, and design-system drift. This is a tool-agnostic review-only workflow; do not use it to build UI or operate UIZZE MCP.
 ---
 

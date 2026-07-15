@@ -1,0 +1,4 @@
+interface:
+  display_name: "UIZZE: Stop AI UI Slop"
+  short_description: "Stop AI UI slop with UIZZE · uizze.com"
+  default_prompt: "Use $uizze-ui-research with UIZZE to build this interface without generic AI UI slop."

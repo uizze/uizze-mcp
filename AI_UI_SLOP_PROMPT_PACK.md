@@ -1,6 +1,6 @@
 # AI UI Slop Prompt Pack
 
-Free, copy-ready prompts for making AI-assisted web and iOS interface work more specific, reference-informed, and reviewable.
+Copy-ready prompts for making AI-assisted web and iOS interface work more specific, reference-informed, and reviewable.
 
 Use the prompts in sequence when possible. They are deliberately evidence-first: do not copy another product's branded interface, assets, or proprietary copy.
 
@@ -64,7 +64,7 @@ or exact layout.
 
 ## 4. Run the anti-slop preflight review
 
-Use this after implementation. It works with the free `ai-ui-slop-review` skill or as a standalone review prompt.
+Use this after implementation. It works with the `ai-ui-slop-review` skill or as a standalone review prompt.
 
 ```text
 Review the rendered evidence for [screen / flow] against its design contract.
@@ -101,6 +101,6 @@ review. Do not edit the interface.
 
 ## Optional UIZZE setup
 
-The public UIZZE catalog is free to browse. Full access provides the Agent Connector and hosted MCP workflows used for UIZZE-backed reference research, design contracts, validation, audits, and critiques.
+UIZZE has no free plan. Paid access provides the catalog, Agent Connector, and hosted MCP workflows used for UIZZE-backed reference research, design contracts, validation, audits, and critiques.
 
-See the [connection instructions](README.md#connect-the-mcp-server), the [anti-slop workflow](ANTI_SLOP_UI_WORKFLOW.md), and the free [AI UI Slop Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).
+See the [connection instructions](README.md#connect-the-mcp-server), the [anti-slop workflow](ANTI_SLOP_UI_WORKFLOW.md), and the [AI UI Slop Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).

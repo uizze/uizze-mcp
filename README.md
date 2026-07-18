@@ -1,18 +1,20 @@
 # UIZZE MCP
 
+[![UIZZE on Smithery](https://smithery.ai/badge/smlbushi/uizze)](https://smithery.ai/servers/smlbushi/uizze)
+
 **UI taste for agents.**
 
 Codex can write the UI; UIZZE helps it stop shipping generic AI UI slop. UIZZE gives Codex real web and iOS interface references before implementation, then provides design contracts, validation, audits, and critiques. Claude Code and Cursor use the same hosted MCP workflow.
 
-## Install the UIZZE anti-AI-UI-slop skill
+## Install the free UIZZE anti-UI-slop skill
 
-Give Codex, Claude Code, or Cursor UIZZE's paid anti-slop workflow:
+Give Codex, Claude Code, or Cursor a workflow grounded in 800,000+ real web and iOS screens, a design contract, and a hard finish gate:
 
 ```bash
-npx skills add https://uizze.com --skill anti-ui-slop
+npx skills add samuelbushi/uizze --skill anti-ui-slop
 ```
 
-The canonical first-party skill is `anti-ui-slop` from `uizze.com`. The repository also includes the focused `uizze-ui-research` and `ui-slop-review` skills.
+The free skill works on its own. Connect the hosted UIZZE MCP when you want live search, reference packs, audits, and screenshot critique inside the agent. The repository also includes the focused `uizze-ui-research` and `ui-slop-review` skills.
 
 → [Read the anti-slop UI workflow](ANTI_SLOP_UI_WORKFLOW.md)
 
@@ -27,16 +29,6 @@ Use UIZZE to:
 - Browse a public catalog of real web and iOS product UI references.
 - Search screens, flows, and UI elements for visual context before building.
 - Give supported coding agents a hosted MCP workflow with UI design contracts, implementation validation, audits, and critiques.
-
-UIZZE has no free plan. Paid access is required for the catalog, Agent Connector, and hosted MCP workflows.
-
-## Partner with UIZZE
-
-Refer product builders who need real UI references and agent-ready design context. UIZZE affiliates earn **50% of each referred buyer's first paid order**, with a 30-day hold and manual payout.
-
-[Get your referral link](https://uizze.com/affiliates)
-
-[Use the disclosure-safe partner share kit](PARTNER_SHARE_KIT.md)
 
 ## Connect the MCP server
 

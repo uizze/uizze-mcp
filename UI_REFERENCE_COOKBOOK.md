@@ -1,6 +1,6 @@
-# UI reference cookbook for coding agents
+# STOP UI SLOP — Reference Cookbook
 
-AI can produce a functional interface quickly. The hard part is giving it enough product context to avoid a generic first draft. UIZZE gives supported coding agents a way to research real web and iOS interface references before implementation, then work from a design contract and validate the result.
+A coding agent can produce a functional interface quickly. The hard part is stopping its generic first draft from becoming your product. UIZZE grounds supported agents in real web and iOS interfaces, turns the evidence into a design contract, and validates the rendered result.
 
 UIZZE has no free plan. Paid access and a UIZZE agent token are required for the catalog, Agent Connector, and hosted MCP workflows.
 
@@ -67,6 +67,6 @@ For the complete configuration examples, see the [README](README.md). For copy-r
 
 ## Explore UIZZE
 
-- [Browse the UI reference catalog](https://uizze.com/mobbin-alternative?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
-- [Learn about the anti-slop UI workflow](https://uizze.com/ai-ui-slop?utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
-- [Connect the Agent Connector](https://uizze.com/?view=agent&utm_source=github&utm_medium=referral&utm_campaign=ui_reference_cookbook)
+- [Browse the UI reference catalog](https://uizze.com/mobbin-alternative)
+- [Learn about the anti-slop UI workflow](https://uizze.com/ai-ui-slop)
+- [Connect the Agent Connector](https://uizze.com)

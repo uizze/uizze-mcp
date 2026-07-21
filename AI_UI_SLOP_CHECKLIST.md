@@ -1,6 +1,6 @@
-# AI UI Slop Preflight Checklist
+# STOP UI SLOP — Preflight Checklist
 
-Use this checklist before approving an interface produced with an AI coding agent. It is intentionally tool-agnostic: the goal is to make the product decision, evidence, states, and implementation quality explicit before the UI ships.
+If the interface still looks like an agent's first draft, it is not finished. Use this checklist to force the product decisions, evidence, states, and implementation quality into the open before the UI ships.
 
 ## 1. Product intent
 
@@ -65,7 +65,7 @@ If a relevant box is still unchecked, treat it as unfinished work rather than a 
 ## Copy-paste agent review prompt
 
 ```text
-Review this implemented interface for AI UI slop.
+Review this implemented interface for UI slop.
 
 Start by restating the screen's user, primary job, primary action, and product constraints. Then inspect the rendered UI and implementation against the AI UI Slop Preflight Checklist. Separate blocking issues from optional refinements. For every issue, cite the visible or implementation evidence, explain why it conflicts with the product intent or design system, and propose the smallest specific correction. Do not recommend copying another product's brand, assets, copy, or exact layout. Do not pass the interface while a relevant checklist item remains unresolved.
 ```
@@ -78,4 +78,4 @@ npx skills add aislon/uizze-mcp --skill ui-slop-review
 
 The standalone post-implementation review skill works without a UIZZE connection or token.
 
-For a reference-first workflow, read [Stop AI UI Slop Before It Ships](ANTI_SLOP_UI_WORKFLOW.md). With full access and a configured agent token, the [UIZZE Agent Connector](https://uizze.com/?view=agent) provides design contracts, implementation validation, audits, and critiques.
+For a reference-first workflow, read [STOP UI SLOP Before It Ships](ANTI_SLOP_UI_WORKFLOW.md). With full access and a configured agent token, the [UIZZE Agent Connector](https://uizze.com) provides design contracts, implementation validation, audits, and critiques.

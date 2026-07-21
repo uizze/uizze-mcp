@@ -1,8 +1,8 @@
-# Stop AI UI Slop Before It Ships
+# STOP UI SLOP Before It Ships
 
-**UI taste for agents.**
+**If your UI looks AI-generated, you've already lost the first impression.**
 
-AI can produce a working interface quickly. The harder part is giving it enough real product context to make thoughtful decisions about hierarchy, navigation, interaction states, density, and feedback instead of starting from a generic guess.
+A coding agent can produce a working interface quickly. The hard part is stopping its first generic guess from becoming your product. Give it enough real evidence to make deliberate decisions about hierarchy, navigation, interaction states, density, and feedback.
 
 UIZZE helps agents inspect real web and iOS UI references before implementation, turn the useful patterns into explicit constraints, and validate the result against those constraints.
 
@@ -53,6 +53,6 @@ References are research context, not a license to copy. Do not reproduce another
 
 ## Learn more
 
-- [Fix AI UI slop before it ships](https://uizze.com/ai-ui-slop)
+- [STOP UI SLOP before it ships](https://uizze.com/ai-ui-slop)
 - [UI research for coding agents](https://uizze.com/mobbin-alternative)
-- [Connect UIZZE](https://uizze.com/?view=agent)
+- [Connect UIZZE](https://uizze.com)

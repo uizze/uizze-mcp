@@ -2,11 +2,26 @@
 
 [![UIZZE on Smithery](https://smithery.ai/badge/smlbushi/uizze)](https://smithery.ai/servers/smlbushi/uizze)
 
-**UI taste for agents.**
+## STOP UI SLOP.
 
-Codex can write the UI; UIZZE helps it stop shipping generic AI UI slop. UIZZE gives Codex real web and iOS interface references before implementation, then provides design contracts, validation, audits, and critiques. Claude Code and Cursor use the same hosted MCP workflow.
+**If your UI looks AI-generated, you've already lost the first impression.**
 
-## Install the free UIZZE anti-UI-slop skill
+UIZZE arms Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS interfaces, live reference search, product-specific design contracts, validation, audits, and a hard finish gate before generic UI reaches users.
+
+**[STOP UI SLOP →](https://uizze.com)**
+
+<table>
+  <tr>
+    <th>Without product evidence</th>
+    <th>Grounded with UIZZE</th>
+  </tr>
+  <tr>
+    <td><img src="https://uizze.com/landing/before-uizze-simple-no-island.png" alt="Generic mobile interface created without UIZZE evidence" width="360"></td>
+    <td><img src="https://uizze.com/landing/after-uizze-simple-no-island.png" alt="Product-specific mobile interface grounded with UIZZE evidence" width="360"></td>
+  </tr>
+</table>
+
+## Install the free UIZZE anti-slop skill
 
 Give Codex, Claude Code, or Cursor a workflow grounded in 800,000+ real web and iOS screens, a design contract, and a hard finish gate:
 
@@ -81,5 +96,5 @@ Start UI work by creating a design contract, inspect the relevant references, ad
 - [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)
 - [Connect UIZZE](https://uizze.com)
 - [Setup documentation](https://uizze.com/docs)
-- [Fix AI UI slop](https://uizze.com/ai-ui-slop)
+- [STOP UI SLOP](https://uizze.com/ai-ui-slop)
 - [UI research for coding agents](https://uizze.com/mobbin-alternative)

@@ -1,6 +1,6 @@
-# AI UI Slop Prompt Pack
+# STOP UI SLOP — Prompt Pack
 
-Copy-ready prompts for making AI-assisted web and iOS interface work more specific, reference-informed, and reviewable.
+Copy-ready prompts that force coding agents past the generic first draft and into product-specific, evidence-backed UI.
 
 Use the prompts in sequence when possible. They are deliberately evidence-first: do not copy another product's branded interface, assets, or proprietary copy.
 
@@ -101,6 +101,6 @@ review. Do not edit the interface.
 
 ## Optional UIZZE setup
 
-UIZZE has no free plan. Paid access provides the catalog, Agent Connector, and hosted MCP workflows used for UIZZE-backed reference research, design contracts, validation, audits, and critiques.
+The free skill provides the anti-slop workflow. The full UIZZE MCP adds live catalogue search, Agent Connector workflows, design contracts, validation, audits, and critiques.
 
-See the [connection instructions](README.md#connect-the-mcp-server), the [anti-slop workflow](ANTI_SLOP_UI_WORKFLOW.md), and the [AI UI Slop Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).
+See the [connection instructions](README.md#connect-the-mcp-server), the [anti-slop workflow](ANTI_SLOP_UI_WORKFLOW.md), and the [STOP UI SLOP Preflight Checklist](AI_UI_SLOP_CHECKLIST.md).

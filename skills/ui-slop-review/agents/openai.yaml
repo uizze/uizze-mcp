@@ -1,4 +1,4 @@
 interface:
-  display_name: "Catch UI Slop"
-  short_description: "Run an anti-slop UI finish gate"
-  default_prompt: "Use $ui-slop-review to catch UI slop in this rendered interface before it ships."
+  display_name: "UIZZE — UI SLOP REVIEW"
+  short_description: "Kill generic UI before it ships"
+  default_prompt: "Use $ui-slop-review to find every generic decision in this rendered interface and run a hard finish gate before it ships."

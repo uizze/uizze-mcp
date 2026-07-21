@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.samuelbushi/uizze",
   "title": "UIZZE",
-  "description": "Stops Codex shipping generic UI slop using a catalogue of 800,000+ real web and iOS screens.",
+  "description": "STOP UI SLOP. 800,000+ real web and iOS screens plus a hard finish gate for Codex, Claude Code, Cursor, and Copilot.",
   "websiteUrl": "https://uizze.com",
   "icons": [
     {
@@ -15,7 +15,7 @@
     "url": "https://github.com/aislon/uizze-mcp",
     "source": "github"
   },
-  "version": "1.1.6",
+  "version": "1.1.7",
   "remotes": [
     {
       "type": "streamable-http",

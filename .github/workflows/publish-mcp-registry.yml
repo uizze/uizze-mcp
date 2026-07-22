@@ -50,10 +50,13 @@ jobs:
           "$RUNNER_TEMP/mcp-publisher" --version
 
       - name: Validate Registry metadata
-        run: "$RUNNER_TEMP/mcp-publisher" validate server.json
+        run: |
+          "$RUNNER_TEMP/mcp-publisher" validate server.json
 
       - name: Authenticate with GitHub OIDC
-        run: "$RUNNER_TEMP/mcp-publisher" login github-oidc
+        run: |
+          "$RUNNER_TEMP/mcp-publisher" login github-oidc
 
       - name: Publish the existing UIZZE listing
-        run: "$RUNNER_TEMP/mcp-publisher" publish server.json
+        run: |
+          "$RUNNER_TEMP/mcp-publisher" publish server.json

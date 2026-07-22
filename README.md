@@ -1,6 +1,6 @@
 # UIZZE MCP
 
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/aislon/uizze-mcp/badge)](https://scorecard.dev/viewer/?uri=github.com/aislon/uizze-mcp)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/uizze/uizze-mcp/badge)](https://scorecard.dev/viewer/?uri=github.com/uizze/uizze-mcp)
 [![UIZZE on Smithery](https://smithery.ai/badge/smlbushi/uizze)](https://smithery.ai/servers/smlbushi/uizze)
 
 ## STOP UI SLOP.

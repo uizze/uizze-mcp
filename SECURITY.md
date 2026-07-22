@@ -4,7 +4,7 @@ Please do not report vulnerabilities in public issues.
 
 Use GitHub's private vulnerability-reporting form for this repository:
 
-https://github.com/aislon/uizze-mcp/security/advisories/new
+https://github.com/uizze/uizze-mcp/security/advisories/new
 
 Include the affected endpoint or file, reproduction steps, impact, and any suggested mitigation. Never include a live UIZZE agent token, user data, or private catalogue material in a report.
 

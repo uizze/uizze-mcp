@@ -44,7 +44,7 @@ For a tool-agnostic review before shipping, run the [AI UI Slop Preflight Checkl
 You can also install the reusable research workflow:
 
 ```bash
-npx skills add aislon/uizze-mcp --skill uizze-ui-research
+npx skills add uizze/uizze-mcp --skill uizze-ui-research
 ```
 
 ## Keep references ethical

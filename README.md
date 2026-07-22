@@ -26,7 +26,7 @@ UIZZE arms Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iO
 Give Codex, Claude Code, or Cursor a workflow grounded in 800,000+ real web and iOS screens, a design contract, and a hard finish gate:
 
 ```bash
-npx skills add samuelbushi/uizze --skill anti-ui-slop
+npx skills add https://uizze.com --skill anti-ui-slop
 ```
 
 The free skill works on its own. Connect the hosted UIZZE MCP when you want live search, reference packs, audits, and screenshot critique inside the agent. The repository also includes the focused `uizze-ui-research` and `ui-slop-review` skills.

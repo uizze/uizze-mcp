@@ -10,6 +10,11 @@ on:
         required: true
         default: v1.1.10
         type: string
+      publish_existing:
+        description: Register provenance only when the reproduced artifact matches the published release asset
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: read
@@ -125,15 +130,40 @@ jobs:
             gh release upload "$TAG" "${upload[@]}"
           fi
 
+      - name: Verify the existing release artifact before backfill
+        if: github.event_name == 'workflow_dispatch' && inputs.publish_existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT: ${{ steps.artifact.outputs.artifact }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          release=$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}")
+          local_digest=$(sha256sum "$ARTIFACT" | cut -d ' ' -f 1)
+          remote_digest=$(jq -r --arg name "$ARTIFACT" '.assets[] | select(.name == $name) | .digest' <<< "$release")
+
+          if [[ -z "$remote_digest" ]]; then
+            echo "Published release ${TAG} has no ${ARTIFACT}; refusing to create provenance." >&2
+            exit 1
+          fi
+
+          if [[ "$remote_digest" != "sha256:${local_digest}" ]]; then
+            echo "Published ${ARTIFACT} has ${remote_digest}; reproduced artifact has sha256:${local_digest}." >&2
+            exit 1
+          fi
+
+          echo "Reproduced ${ARTIFACT} exactly matches ${remote_digest}." >> "$GITHUB_STEP_SUMMARY"
+
       - name: Register keyless build provenance
         id: build-provenance
-        if: github.event_name == 'release'
+        if: github.event_name == 'release' || inputs.publish_existing
         uses: actions/attest-build-provenance@0f67c3f4856b2e3261c31976d6725780e5e4c373 # v4.1.1
         with:
           subject-path: ${{ steps.artifact.outputs.artifact }}
 
       - name: Publish the verifiable provenance bundle
-        if: github.event_name == 'release'
+        if: github.event_name == 'release' || inputs.publish_existing
         env:
           ARTIFACT: ${{ steps.artifact.outputs.artifact }}
           BUNDLE_PATH: ${{ steps.build-provenance.outputs.bundle-path }}

@@ -126,7 +126,38 @@ jobs:
           fi
 
       - name: Register keyless build provenance
+        id: build-provenance
         if: github.event_name == 'release'
         uses: actions/attest-build-provenance@0f67c3f4856b2e3261c31976d6725780e5e4c373 # v4.1.1
         with:
           subject-path: ${{ steps.artifact.outputs.artifact }}
+
+      - name: Publish the verifiable provenance bundle
+        if: github.event_name == 'release'
+        env:
+          ARTIFACT: ${{ steps.artifact.outputs.artifact }}
+          BUNDLE_PATH: ${{ steps.build-provenance.outputs.bundle-path }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          published_bundle="${ARTIFACT%.tar.gz}.intoto.jsonl"
+          cp "$BUNDLE_PATH" "$published_bundle"
+
+          release=$(gh api "repos/${GITHUB_REPOSITORY}/releases/tags/${TAG}")
+          local_digest=$(sha256sum "$published_bundle" | cut -d ' ' -f 1)
+          remote_digest=$(jq -r --arg name "$published_bundle" '.assets[] | select(.name == $name) | .digest' <<< "$release")
+
+          if [[ -z "$remote_digest" ]]; then
+            gh release upload "$TAG" "$published_bundle"
+          elif [[ "$remote_digest" != "sha256:${local_digest}" ]]; then
+            echo "Published ${published_bundle} has ${remote_digest}; refusing to overwrite it with sha256:${local_digest}." >&2
+            exit 1
+          fi
+
+          {
+            echo
+            echo "- Provenance bundle: \`${published_bundle}\`"
+            echo "- Verify: \`gh attestation verify ${ARTIFACT} --repo ${GITHUB_REPOSITORY}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

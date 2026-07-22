@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.uizze/uizze",
+  "name": "io.github.samuelbushi/uizze",
   "title": "UIZZE",
   "description": "STOP UI SLOP. 800,000+ real screens for Codex, Claude Code, Cursor & Copilot—plus a finish gate.",
   "websiteUrl": "https://uizze.com",

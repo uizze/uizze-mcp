@@ -8,7 +8,7 @@ on:
       tag:
         description: Existing semantic tag to reproduce without publishing
         required: true
-        default: v1.1.10
+        default: v1.1.11
         type: string
       publish_existing:
         description: Register provenance only when the reproduced artifact matches the published release asset

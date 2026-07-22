@@ -46,10 +46,37 @@ Use UIZZE to:
 - Search screens, flows, and UI elements for visual context before building.
 - Give supported coding agents a hosted MCP workflow with UI design contracts, implementation validation, audits, and critiques.
 
-## Connect the MCP server
+## Try the MCP server free
 
-1. Get an agent token from the UIZZE Agent Connector.
-2. Connect the remote MCP endpoint:
+Connect `https://uizze.com/mcp` without an account or token. The free server gives your agent one focused tool: `check_ui_slop`. It checks rendered HTML and CSS for generic structure, fake content, inert controls, missing states, default agent palettes, weak product specificity, and other visible UI slop—then returns concrete fixes.
+
+### Codex
+
+```bash
+codex mcp add uizze --url https://uizze.com/mcp
+```
+
+### Claude Code
+
+```bash
+claude mcp add --transport http uizze https://uizze.com/mcp
+```
+
+### Cursor
+
+```json
+{
+  "mcpServers": {
+    "uizze": {
+      "url": "https://uizze.com/mcp"
+    }
+  }
+}
+```
+
+## Unlock full UIZZE
+
+Full UIZZE connects the agent to 800,000+ real web and iOS screens, live reference search, reference packs, product-specific design contracts, implementation validation, deterministic audits, and visual critique. Get an agent token from [uizze.com](https://uizze.com), then add it to the same endpoint:
 
 ```text
 URL: https://uizze.com/mcp
@@ -86,11 +113,15 @@ claude mcp add --transport http uizze https://uizze.com/mcp --header "Authorizat
 }
 ```
 
+## Codex plugin
+
+This repository is also a valid Codex plugin package. Its manifest lives at `.codex-plugin/plugin.json` and combines the public UIZZE MCP preview with the focused `uizze-ui-research` and `ui-slop-review` skills.
+
 ## What the server provides
 
-The UIZZE MCP server returns structured UI references, image URLs, OCR excerpts, ontology context, design contracts, implementation manifests, deterministic audit results, critique gates, and suggested follow-up calls.
+The free UIZZE MCP server returns a deterministic slop audit with evidence and fixes. Full UIZZE adds structured UI references, image URLs, OCR excerpts, ontology context, design contracts, implementation manifests, critique gates, and suggested follow-up calls.
 
-Start UI work by creating a design contract, inspect the relevant references, adapt the observed patterns to the existing design system, then validate and critique the implementation before calling it done. Do not clone brands, logos, proprietary copy, assets, or exact layouts.
+With full UIZZE, start UI work by creating a design contract, inspect the relevant references, adapt the observed patterns to the existing design system, then validate and critique the implementation before calling it done. Do not clone brands, logos, proprietary copy, assets, or exact layouts.
 
 ## Links
 

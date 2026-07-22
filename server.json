@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.samuelbushi/uizze",
   "title": "UIZZE",
-  "description": "STOP UI SLOP. 800,000+ real screens for Codex, Claude Code, Cursor & Copilot—plus a finish gate.",
+  "description": "STOP UI SLOP. Try a free deterministic UI check, then unlock 800,000+ real screens, design contracts and finish gates.",
   "websiteUrl": "https://uizze.com",
   "icons": [
     {
@@ -16,19 +16,11 @@
     "source": "github",
     "id": "1297775243"
   },
-  "version": "1.1.10",
+  "version": "1.1.11",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://uizze.com/mcp",
-      "headers": [
-        {
-          "name": "Authorization",
-          "description": "Enter Bearer followed by your UIZZE agent token.",
-          "isRequired": true,
-          "isSecret": true
-        }
-      ]
+      "url": "https://uizze.com/mcp"
     }
   ]
 }

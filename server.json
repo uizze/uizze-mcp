@@ -16,7 +16,7 @@
     "source": "github",
     "id": "1297775243"
   },
-  "version": "1.1.9",
+  "version": "1.1.10",
   "remotes": [
     {
       "type": "streamable-http",

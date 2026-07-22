@@ -98,3 +98,4 @@ Start UI work by creating a design contract, inspect the relevant references, ad
 - [Setup documentation](https://uizze.com/docs)
 - [STOP UI SLOP](https://uizze.com/ai-ui-slop)
 - [UI research for coding agents](https://uizze.com/mobbin-alternative)
+- [UIZZE vs. Refero for coding-agent workflows](https://uizze.com/refero-alternative)

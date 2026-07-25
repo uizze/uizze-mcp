@@ -2,13 +2,15 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.uizze/uizze",
   "title": "UIZZE",
-  "description": "STOP UI SLOP. Real UI evidence, design contracts, and hard finish gates for coding agents.",
+  "description": "STOP UI SLOP with 800,000+ real web and iOS screens, design contracts, and hard finish gates.",
   "websiteUrl": "https://uizze.com",
   "icons": [
     {
       "src": "https://uizze.com/brand/icons/uizze-web-app-icon-512x512.png",
       "mimeType": "image/png",
-      "sizes": ["512x512"]
+      "sizes": [
+        "512x512"
+      ]
     }
   ],
   "repository": {
@@ -16,7 +18,7 @@
     "source": "github",
     "id": "1297775243"
   },
-  "version": "1.1.14",
+  "version": "1.1.15",
   "remotes": [
     {
       "type": "streamable-http",

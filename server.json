@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.samuelbushi/uizze",
+  "name": "io.github.uizze/uizze",
   "title": "UIZZE",
-  "description": "STOP UI SLOP. Free UI check; unlock 800,000+ real screens, design contracts and finish gates.",
+  "description": "STOP UI SLOP. Real UI evidence, design contracts, and hard finish gates for coding agents.",
   "websiteUrl": "https://uizze.com",
   "icons": [
     {
@@ -16,7 +16,7 @@
     "source": "github",
     "id": "1297775243"
   },
-  "version": "1.1.12",
+  "version": "1.1.13",
   "remotes": [
     {
       "type": "streamable-http",

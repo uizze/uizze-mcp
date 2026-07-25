@@ -1,26 +1,16 @@
-# UIZZE MCP
+> ***If your UI screams AI, your app is dead.***
+
+# Stop Making UI Slop
+
+Build distinctive UI with 800,000+ real web and iOS screens via [UIZZE](https://uizze.com).
+
+![Stop Making UI Slop with UIZZE](https://uizze.com/landing/anti-ui-slop-skill-banner.png)
 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/uizze/uizze-mcp/badge)](https://scorecard.dev/viewer/?uri=github.com/uizze/uizze-mcp)
-[![UIZZE on Smithery](https://smithery.ai/badge/smlbushi/uizze)](https://smithery.ai/servers/smlbushi/uizze)
 
-## STOP UI SLOP.
-
-**If your UI looks AI-generated, you've already lost the first impression.**
-
-UIZZE arms Codex, Claude Code, Cursor, and Copilot with 800,000+ real web and iOS interfaces, live reference search, product-specific design contracts, validation, audits, and a hard finish gate before generic UI reaches users.
+UIZZE gives Codex, Claude Code, Cursor, Copilot, and other coding agents live reference search, product-specific design contracts, validation, audits, and a hard finish gate.
 
 **[STOP UI SLOP →](https://uizze.com)**
-
-<table>
-  <tr>
-    <th>Without product evidence</th>
-    <th>Grounded with UIZZE</th>
-  </tr>
-  <tr>
-    <td><img src="https://uizze.com/landing/before-uizze-simple-no-island.png" alt="Generic mobile interface created without UIZZE evidence" width="360"></td>
-    <td><img src="https://uizze.com/landing/after-uizze-simple-no-island.png" alt="Product-specific mobile interface grounded with UIZZE evidence" width="360"></td>
-  </tr>
-</table>
 
 ## Install the free UIZZE anti-slop skill
 
@@ -125,7 +115,7 @@ With full UIZZE, start UI work by creating a design contract, inspect the releva
 
 ## Links
 
-- [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samuelbushi%2Fuizze)
+- [Official MCP Registry listing](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.uizze%2Fuizze)
 - [Connect UIZZE](https://uizze.com)
 - [Setup documentation](https://uizze.com/docs)
 - [STOP UI SLOP](https://uizze.com/ai-ui-slop)

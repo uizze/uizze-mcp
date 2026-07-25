@@ -52,12 +52,12 @@ jobs:
         run: |
           "$RUNNER_TEMP/mcp-publisher" validate server.json
 
-      - name: Authenticate as the legacy Registry owner
+      - name: Authenticate as UIZZE
         env:
           MCP_GITHUB_TOKEN: ${{ secrets.MCP_GITHUB_TOKEN }}
         run: |
           "$RUNNER_TEMP/mcp-publisher" login github
 
-      - name: Publish the existing UIZZE listing
+      - name: Publish the UIZZE listing
         run: |
           "$RUNNER_TEMP/mcp-publisher" publish server.json

@@ -66,7 +66,7 @@ claude mcp add --transport http uizze https://uizze.com/mcp
 
 ## Unlock full UIZZE
 
-Full UIZZE connects the agent to 800,000+ real web and iOS screens, live reference search, reference packs, product-specific design contracts, implementation validation, deterministic audits, and visual critique. Get an agent token from [uizze.com](https://uizze.com), then add it to the same endpoint:
+Full UIZZE connects the agent to 800,000+ real web and iOS screens, live reference search, reference packs, a visual reference gallery in MCP Apps-capable clients, product-specific design contracts, implementation validation, deterministic audits, and visual critique. Get an agent token from [uizze.com](https://uizze.com), then add it to the same endpoint:
 
 ```text
 URL: https://uizze.com/mcp

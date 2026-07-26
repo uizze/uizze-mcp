@@ -24,7 +24,7 @@ The free skill works on its own. Connect the hosted UIZZE MCP when you want live
 
 → [Read the anti-slop UI workflow](ANTI_SLOP_UI_WORKFLOW.md)
 
-→ [Run the AI UI slop preflight checklist](AI_UI_SLOP_CHECKLIST.md)
+→ [Run the UI slop preflight checklist](AI_UI_SLOP_CHECKLIST.md)
 
 → [Copy an anti-slop UI research, contract, validation, and critique prompt](AI_UI_SLOP_PROMPT_PACK.md)
 

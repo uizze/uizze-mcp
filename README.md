@@ -38,6 +38,8 @@ Use UIZZE to:
 
 ## Try the MCP server free
 
+Not connecting an agent yet? [Score one finished screen free](https://uizze.com/tools/ui-slop-score): upload one web or iOS screenshot for a blunt UI-slop risk score, visible evidence, and concrete fixes—no signup.
+
 Connect `https://uizze.com/mcp/preview` without an account or token. The free server gives your agent one focused tool: `check_ui_slop`. It checks rendered HTML and CSS for generic structure, fake content, inert controls, missing states, default agent palettes, weak product specificity, and other visible UI slop—then returns concrete fixes.
 
 ### Codex

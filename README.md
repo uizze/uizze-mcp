@@ -85,7 +85,7 @@ codex mcp add uizze --url https://uizze.com/mcp --bearer-token-env-var UIZZE_AGE
 ### Claude Code
 
 ```bash
-claude mcp add --transport http uizze https://uizze.com/mcp --header \"Authorization: Bearer uizze_at_your_token\"
+claude mcp add --transport http uizze https://uizze.com/mcp --header "Authorization: Bearer uizze_at_your_token"
 ```
 
 ### Cursor

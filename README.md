@@ -38,18 +38,18 @@ Use UIZZE to:
 
 ## Try the MCP server free
 
-Connect `https://uizze.com/mcp` without an account or token. The free server gives your agent one focused tool: `check_ui_slop`. It checks rendered HTML and CSS for generic structure, fake content, inert controls, missing states, default agent palettes, weak product specificity, and other visible UI slop—then returns concrete fixes.
+Connect `https://uizze.com/mcp/preview` without an account or token. The free server gives your agent one focused tool: `check_ui_slop`. It checks rendered HTML and CSS for generic structure, fake content, inert controls, missing states, default agent palettes, weak product specificity, and other visible UI slop—then returns concrete fixes.
 
 ### Codex
 
 ```bash
-codex mcp add uizze --url https://uizze.com/mcp
+codex mcp add uizze-preview --url https://uizze.com/mcp/preview
 ```
 
 ### Claude Code
 
 ```bash
-claude mcp add --transport http uizze https://uizze.com/mcp
+claude mcp add --transport http uizze-preview https://uizze.com/mcp/preview
 ```
 
 ### Cursor
@@ -57,8 +57,8 @@ claude mcp add --transport http uizze https://uizze.com/mcp
 ```json
 {
   "mcpServers": {
-    "uizze": {
-      "url": "https://uizze.com/mcp"
+    "uizze-preview": {
+      "url": "https://uizze.com/mcp/preview"
     }
   }
 }
@@ -66,7 +66,7 @@ claude mcp add --transport http uizze https://uizze.com/mcp
 
 ## Unlock full UIZZE
 
-Full UIZZE connects the agent to 800,000+ real web and iOS screens, live reference search, reference packs, a visual reference gallery in MCP Apps-capable clients, product-specific design contracts, implementation validation, deterministic audits, and visual critique. Get an agent token from [uizze.com](https://uizze.com), then add it to the same endpoint:
+Full UIZZE connects the agent to 800,000+ real web and iOS screens, live reference search, reference packs, a visual reference gallery in MCP Apps-capable clients, product-specific design contracts, implementation validation, deterministic audits, and visual critique. Get an agent token from [uizze.com](https://uizze.com), then add it to the full MCP endpoint:
 
 ```text
 URL: https://uizze.com/mcp

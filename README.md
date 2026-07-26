@@ -59,6 +59,14 @@ Or install the bundled Claude Code plugin from this repository. It adds the same
 /plugin install uizze@uizze-mcp
 ```
 
+### Cline
+
+```bash
+cline mcp install uizze-preview --transport http https://uizze.com/mcp/preview --yes
+```
+
+See [llms-install.md](llms-install.md) for the exact free-first setup and safety boundaries Cline should follow.
+
 ### Cursor
 
 ```json

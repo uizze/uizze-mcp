@@ -79,13 +79,13 @@ Store the token in local agent configuration or an environment variable only. Do
 
 ```bash
 export UIZZE_AGENT_TOKEN="uizze_at_your_token"
-codex mcp add uizze-preview --url https://uizze.com/mcp/preview --bearer-token-env-var UIZZE_AGENT_TOKEN
+codex mcp add uizze --url https://uizze.com/mcp --bearer-token-env-var UIZZE_AGENT_TOKEN
 ```
 
 ### Claude Code
 
 ```bash
-claude mcp add --transport http uizze-preview https://uizze.com/mcp/preview --header "Authorization: Bearer uizze_at_your_token"
+claude mcp add --transport http uizze https://uizze.com/mcp --header \"Authorization: Bearer uizze_at_your_token\"
 ```
 
 ### Cursor

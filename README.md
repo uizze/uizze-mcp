@@ -52,6 +52,13 @@ codex mcp add uizze-preview --url https://uizze.com/mcp/preview
 claude mcp add --transport http uizze-preview https://uizze.com/mcp/preview
 ```
 
+Or install the bundled Claude Code plugin from this repository. It adds the same free preview plus the `uizze-ui-research` and `ui-slop-review` skills:
+
+```text
+/plugin marketplace add https://github.com/uizze/uizze-mcp.git
+/plugin install uizze@uizze-mcp
+```
+
 ### Cursor
 
 ```json

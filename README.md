@@ -2,6 +2,8 @@
 
 # Stop Making UI Slop
 
+[![MCP Toplist](https://mcptoplist.com/badge/pulsemcp%2Fuizze.svg)](https://mcptoplist.com/server/pulsemcp%2Fuizze)
+
 Build distinctive UI with 800,000+ real web and iOS screens via [UIZZE](https://uizze.com).
 
 ![Stop Making UI Slop with UIZZE](https://uizze.com/landing/anti-ui-slop-skill-banner.png)
